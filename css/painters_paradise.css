@@ -1,65 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-header {
-  background-color: black;
-  color: #ccc;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px #ccc solid;
-}
-
-header > div,
-header > nav {
-  margin: .3em 2em;
-}
-
-header > nav {
-  flex-grow: 1;
-}
-
-header > nav > ul {
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-}
-
-header > nav > ul > li {
-  margin: 0 1.4em;
-  font-size: 1.3em;
-}
-
-header a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-header a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
 .logo {
   font-family: "Shrikhand", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 33px;
-}
-
-.logo:hover {
-  text-decoration: none;
 }
 
 .signature {
@@ -67,53 +9,3 @@ header a:hover {
   font-weight: 400;
   font-style: normal;
 }
-
-.top-rhs {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.top-rhs > div {
-  margin: 0 1.4em;
-}
-
-button {
-  background-color: #679fb6;
-  border: 1px #679fb6 solid;
-  padding: .3em 2em;
-  text-transform: uppercase;
-  border-radius: .5em;
-  color: #eee;
-}
-
-button:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
-.alt {
-  background-color: #ccc;
-  border: 1px #ccc solid;
-  color: #111;
-}
-
-.alt:hover {
-  background-color: #fff;
-  color: #000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
