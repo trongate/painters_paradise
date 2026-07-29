@@ -160,6 +160,30 @@ h2 {
   border-bottom: 1px #333 solid;
 }
 
+.clear-section {
+  padding: 2.4em 0 .6em 0;
+  border-bottom: 1px #333 solid;
+}
+
+.text-left {
+  text-align: left;
+}
+
+#learning-outcomes {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+#learning-outcomes > div {
+  width: 25%;
+}
+
+#learning-outcomes > div p {
+  font-size: .85em;
+}
+
 
 
 
