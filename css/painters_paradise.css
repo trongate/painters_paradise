@@ -103,11 +103,14 @@ button:hover {
   font-family: "Devonshire", cursive;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  font-size: 2.4em;
 }
 
 #hero {
   background-image: url(../images/dark_wood.png);
   padding: 3em 0;
+  color: #eee;
 }
 
 #hero h1 {
@@ -117,7 +120,6 @@ button:hover {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  color: #eee;
 }
 
 #hero > .container {
@@ -142,8 +144,20 @@ h1 {
   font-size: 2.2em;
 }
 
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.8em;
+}
+
 .lg {
   font-size: 1.2em;
+}
+
+.silver-section {
+  background-color: silver;
+  padding: 2.4em 0 .6em 0;
+  border-bottom: 1px #333 solid;
 }
 
 
