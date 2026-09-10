@@ -136,21 +136,19 @@ button:hover {
 }
 
 .container {
+  width: 94%;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 #hero > .container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
 }
 
-#hero > .container > div:nth-child(1) {
-  width: 44%;
-}
-
-#hero > .container > div:nth-child(2) {
-  width: 56%;
+#hero > .container p:last-of-type {
+  text-align: center;
 }
 
 img {
@@ -216,6 +214,18 @@ footer {
   border-top: 1px #ccc solid;
   background-color: #000;
   color: #eee;
+}
+
+@media (min-width: 1000px) {
+
+  #hero > .container {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  #hero > .container p:last-of-type {
+    text-align: left;
+  }
+
 }
 
 @media (min-width: 1300px) {
